@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- BOtstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/Styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="container-fluid bg-image">
+      <!-- Nav -->
+      <nav class="navbar navbar-expand-lg navbar-dark container-md">
+        <div class="container">
+          <img class="mt-2" src="img/logo.png" alt="Logo" height="50px" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 m-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Hero section -->
+      <div class="container h-75">
+        <div class="row mt-5 justify-content-center g-0 h-100">
+          <div class="col-12 col-md-6 align-self-center mt-5">
+            <h1 class="display-1" id="hero-text">
+              Domotique KNX et automatisation d'accès
+            </h1>
+          </div>
+
+          <div class="col-12 col-md-4 align-self-center">
+            <form class="bg-light px-5 py-3">
+              <h6 class="mb-4">Demander un devis</h6>
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                  placeholder="Name"
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="E-mail"
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="phone"
+                  aria-describedby="emailHelp"
+                  placeholder="Phone"
+                />
+              </div>
+              <div>
+                <textarea
+                  name="textarea"
+                  id=""
+                  cols="30"
+                  rows="2"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+
+              <div>
+                <button type="submit" class="btn btn-primary mt-3">
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="container mt-5">
+      <div class="row g-0 justify-content-center">
+        <div class="col-12 col-md-6 align-self-center">
+          <div class="about-us mt-5">
+            <h2>qui somme nous</h2>
+            <p class="lead my-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque id dolor reprehenderit soluta ratione officiis
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
+              suscipit eligendi ab nesciunt ex laboriosam veritatis sequi
+              necessitatibus, adipisci debitis ipsam distinctio? Ratione
+              repudiandae doloremque voluptate, eius voluptatem, et quisquam
+              dolorum accusantium ex debitis qui cum repellendus magni commodi
+              eaque reprehenderit mollitia, laboriosam totam provident dolores!
+              Quam, sint cumque? Incidunt?
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mt-4">
+          <img
+            class="image-fluid"
+            src="img/aboutus.jpg"
+            alt=""
+            style="height: 80%"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Stats -->
+    <div class="container-fluid bg-image-stat">
+      <div class="container h-100 stat-text">
+        <div class="row h-100 justify-content-center">
+          <div class="col-12 col-md-3 align-self-center">
+            <p class="text-center">75</p>
+            <h6 class="text-center">client satisfait</h6>
+          </div>
+          <div class="col-12 col-md-3 align-self-center">
+            <p class="text-center">120</p>
+            <h6 class="text-center">projet réussi</h6>
+          </div>
+          <div class="col-12 col-md-3 align-self-center">
+            <p class="text-center">15</p>
+            <h6 class="text-center">années d'expérience</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Services -->
+    <div class="container services">
+      <h2 class="desplay-2 text-center mt-5">Services</h2>
+
+      <!-- Cards -->
+      <div class="row row-cols-3 justify-content-center g-4 my-5">
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100">
+            <img src="img/Alarm.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi,
+                illo.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100">
+            <img src="img/camera.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi,
+                illo.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100">
+            <img src="img/Portail.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi,
+                illo.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Force next columns to break to new line -->
+        <div class="w-100 d-none d-lg-block d-xl-block"></div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100">
+            <img src="img/rideau2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi,
+                illo.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100">
+            <img src="img/Barrier.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi,
+                illo.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100">
+            <img src="img/installation.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi,
+                illo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="container-fluid">
+      <div class="container h-100">
+        <div class="row justify-content-around h-100">
+          <div class="col-2 align-self-center"><p>Copyright © 2021 BSS</p></div>
+          <div class="col-2 align-self-center"><p>Designed by Litim.A</p></div>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

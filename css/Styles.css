@@ -1,0 +1,100 @@
+body {
+  color: white;
+}
+
+/* Header */
+.bg-image {
+  background: linear-gradient(#1f273ac0, #1f273ac0), url("img/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  height: 800px;
+}
+
+.display-1 {
+  color: white;
+  font-size: 4rem;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+#hero-text {
+  color: white;
+}
+
+/* About us */
+
+form {
+  width: 330px;
+}
+
+form h6 {
+  color: rgb(64, 78, 92);
+  font-weight: bold;
+}
+textarea {
+  width: 100%;
+}
+input {
+  width: 100%;
+
+  height: auto;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #eaeaea;
+  box-sizing: border-box;
+}
+
+.about-us {
+  background-color: #f2f5f7;
+  padding: 50px;
+}
+
+.about-us h2,
+.lead {
+  font-weight: bold;
+  text-transform: capitalize;
+  color: rgb(64, 78, 92);
+}
+.about-us p {
+  color: rgb(64, 78, 92);
+}
+
+/* Stats */
+.bg-image-stat {
+  background: linear-gradient(#1f273ac0, #1f273ac0), url("img/Stats.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  height: 300px;
+}
+
+.stat-text h6 {
+  text-transform: uppercase;
+}
+.stat-text p {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: -5px;
+}
+
+/* Services */
+.services {
+  color: rgb(64, 78, 92);
+}
+
+footer {
+  background-color: rgb(113, 151, 156);
+  height: 100px;
+}
+
+@media (max-width: 500px) {
+  .display-1 {
+    color: white;
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-weight: 700;
+  }
+}
